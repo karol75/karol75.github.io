@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "LetraTitulo";
+    src: url(../font/static/YanoneKaffeesatz-Bold.ttf);
+}
+@font-face {
+    font-family: "LetraTexto";
+    src: url(../font/YanoneKaffeesatz-VariableFont_wght.ttf);
+}
+body{
+    margin: 0;
+}
+nav{
+    background-color: blueviolet;
+}
+.ul-contenedor{
+    display: flex;
+    margin: 0;
+    justify-content: flex-end;
+}
+.ul-contenedor li{
+    display: inline-block;
+    list-style: none;
+}
+.ul-contenedor li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    color: #FFF;
+    font-family: "LetraTexto";
+    font-size: 30px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.ul-contenedor li a:hover{
+    background-color: chocolate;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: "LetraTitulo";
+    margin: 0;
+    padding: 8px;
+}
+p{
+    font-size: 30px;
+    font-family: "LetraTexto";
+    padding: 30px;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: "LetraTexto"; 
+}
+.blue{
+    background-color: #c88989;
+    padding-top: 0px;
+}
+
+.contenedor-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+.item-galeria{
+    width: 300px;
+}
+.item-galeria img{
+    width: 100%;
+    height: 200px;
+}
+
+.contenedor-complic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    margin:50px;
+}
+.item-complic{
+    width: 200px;
+}
+.item-complic img{
+    width: 100%;
+    height: 200px
+}
+
+.footer{
+    margin-top: 600px;
+    height: 100px;
+    background-color:#8a2be2;
+}
+.footer-otro{
+    height: 40px;
+    background-color: #360365;
+}
